@@ -1,0 +1,11 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Pods-TYPalyground:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+OBJECT_VERSION: 56
+PLUGINS:
+  {}
