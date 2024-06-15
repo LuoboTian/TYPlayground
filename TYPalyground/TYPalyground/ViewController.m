@@ -7,12 +7,11 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
-
+#import "TYPRegister.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) NSMutableDictionary<NSString *, Class>* featureInfo;
-@property (nonatomic, strong) NSMutableArray* featureList;
+@property (nonatomic, strong) NSArray* featureList;
 
 @end
 
@@ -22,18 +21,10 @@
 {
     self = [super init];
     if (self) {
-        _featureInfo = [NSMutableDictionary new];
-        _featureList = [NSMutableArray new];
-        [self setup];
+        _featureList =  [[TYPRegister shared] getViewControllerKeyList];
     }
     return self;
 }
-
-- (void)setup {
-    [_featureInfo setObject:[TestViewController class] forKey:@"Test"];
-    _featureList = [[_featureInfo allKeys] mutableCopy];
-}
-
 
 
 
@@ -76,7 +67,7 @@
 // 点击Table，执行的操作
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *key = [_featureList objectAtIndex:indexPath.row];
-    Class class = _featureInfo[key];
+    Class class = [[TYPRegister shared] getViewControllerClassWithKey:key];
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
     

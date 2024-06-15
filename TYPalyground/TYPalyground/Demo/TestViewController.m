@@ -6,12 +6,17 @@
 //
 
 #import "TestViewController.h"
+#import "TYPRegister.h"
 
-@interface TestViewController ()
+@interface TestViewController () <TYPViewControllerInterface>
 
 @end
 
 @implementation TestViewController
+
++ (void)load {
+    TYPVireControllerRegister([TestViewController class]);
+}
 
 - (instancetype)init
 {
