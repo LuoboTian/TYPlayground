@@ -1,13 +1,13 @@
 //
-//  RedVIew.m
+//  RedView.m
 //  TYPalyground
 //
 //  Created by yu tian on 2024/6/15.
 //
 
-#import "RedVIew.h"
+#import "RedView.h"
 
-@implementation RedVIew
+@implementation RedView
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];

@@ -16,8 +16,9 @@
 		C87BD3502C1D406D005513A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD34F2C1D406D005513A6 /* main.m */; };
 		C87BD35F2C1D5E81005513A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD35D2C1D5E81005513A6 /* TestViewController.m */; };
 		C87BD36C2C1D72A7005513A6 /* PanGestureFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */; };
-		C87BD36D2C1D72A7005513A6 /* RedVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD36A2C1D72A7005513A6 /* RedVIew.m */; };
+		C87BD36D2C1D72A7005513A6 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD36A2C1D72A7005513A6 /* RedView.m */; };
 		C87BD3742C1D73F9005513A6 /* TYPRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD3722C1D73F9005513A6 /* TYPRegister.m */; };
+		C8B883782C21CAF9003C38EC /* TYLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */; };
 		D62545CC7541C8AFFEC3914C /* Pods_TYPalyground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7975D1713977B4AAF55FD1B4 /* Pods_TYPalyground.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +42,12 @@
 		C87BD35D2C1D5E81005513A6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		C87BD3672C1D72A7005513A6 /* PanGestureFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureFollowingViewController.h; sourceTree = "<group>"; };
 		C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureFollowingViewController.m; sourceTree = "<group>"; };
-		C87BD3692C1D72A7005513A6 /* RedVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedVIew.h; sourceTree = "<group>"; };
-		C87BD36A2C1D72A7005513A6 /* RedVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedVIew.m; sourceTree = "<group>"; };
+		C87BD3692C1D72A7005513A6 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		C87BD36A2C1D72A7005513A6 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		C87BD3712C1D73F9005513A6 /* TYPRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPRegister.h; sourceTree = "<group>"; };
 		C87BD3722C1D73F9005513A6 /* TYPRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPRegister.m; sourceTree = "<group>"; };
+		C8B883762C21CAF9003C38EC /* TYLifecycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLifecycleViewController.h; sourceTree = "<group>"; };
+		C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLifecycleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 		C87BD3312C1D406A005513A6 = {
 			isa = PBXGroup;
 			children = (
+				C8B883742C21CAAC003C38EC /* Lifecycle */,
 				C87BD3732C1D73F9005513A6 /* Regitster */,
 				C87BD36B2C1D72A7005513A6 /* PanGestureFollowing */,
 				C87BD35E2C1D5E81005513A6 /* Demo */,
@@ -122,8 +126,8 @@
 			children = (
 				C87BD3672C1D72A7005513A6 /* PanGestureFollowingViewController.h */,
 				C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */,
-				C87BD3692C1D72A7005513A6 /* RedVIew.h */,
-				C87BD36A2C1D72A7005513A6 /* RedVIew.m */,
+				C87BD3692C1D72A7005513A6 /* RedView.h */,
+				C87BD36A2C1D72A7005513A6 /* RedView.m */,
 			);
 			name = PanGestureFollowing;
 			path = TYPalyground/PanGestureFollowing;
@@ -137,6 +141,16 @@
 			);
 			name = Regitster;
 			path = TYPalyground/Regitster;
+			sourceTree = "<group>";
+		};
+		C8B883742C21CAAC003C38EC /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				C8B883762C21CAF9003C38EC /* TYLifecycleViewController.h */,
+				C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */,
+			);
+			name = Lifecycle;
+			path = TYPalyground/Lifecycle;
 			sourceTree = "<group>";
 		};
 		FE53DF851595FD546276C3D5 /* Frameworks */ = {
@@ -243,12 +257,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B883782C21CAF9003C38EC /* TYLifecycleViewController.m in Sources */,
 				C87BD35F2C1D5E81005513A6 /* TestViewController.m in Sources */,
 				C87BD3452C1D406A005513A6 /* ViewController.m in Sources */,
 				C87BD3742C1D73F9005513A6 /* TYPRegister.m in Sources */,
 				C87BD36C2C1D72A7005513A6 /* PanGestureFollowingViewController.m in Sources */,
 				C87BD33F2C1D406A005513A6 /* AppDelegate.m in Sources */,
-				C87BD36D2C1D72A7005513A6 /* RedVIew.m in Sources */,
+				C87BD36D2C1D72A7005513A6 /* RedView.m in Sources */,
 				C87BD3502C1D406D005513A6 /* main.m in Sources */,
 				C87BD3422C1D406A005513A6 /* SceneDelegate.m in Sources */,
 			);
@@ -408,6 +423,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +452,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -15,7 +15,7 @@
 @implementation TestViewController
 
 + (void)load {
-    TYPVireControllerRegister([TestViewController class]);
+    TYPViewControllerRegister([TestViewController class]);
 }
 
 - (instancetype)init

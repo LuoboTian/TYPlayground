@@ -1,5 +1,5 @@
 //
-//  RedVIew.h
+//  RedView.h
 //  TYPalyground
 //
 //  Created by yu tian on 2024/6/15.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RedVIew : UIView
+@interface RedView : UIView
 
 @end
 

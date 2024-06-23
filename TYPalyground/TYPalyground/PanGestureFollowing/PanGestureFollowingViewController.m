@@ -3,9 +3,10 @@
 //  TYPalyground
 //
 //  Created by yu tian on 2024/6/15.
-//
+//  手势移动
 
 #import "PanGestureFollowingViewController.h"
+#import "RedView.h"
 #import "TYPRegister.h"
 
 
@@ -16,7 +17,7 @@
 @implementation PanGestureFollowingViewController
 
 + (void)load {
-    TYPVireControllerRegister([PanGestureFollowingViewController class]);
+    TYPViewControllerRegister([PanGestureFollowingViewController class]);
 }
 
 - (void)viewDidLoad {
@@ -25,12 +26,13 @@
     
     self.view.backgroundColor = [UIColor clearColor];
     
-    UIView *view = [UIView new];
-    view.frame = CGRectMake(20, 20, 40, 40);
+    RedView *view = [RedView new];
+    view.frame = CGRectMake(30, 100, 40, 40);
     view.backgroundColor = [UIColor redColor];
     
     view.translatesAutoresizingMaskIntoConstraints = NO;
     
+    view.userInteractionEnabled = YES;
     [self.view addSubview:view];
 }
 

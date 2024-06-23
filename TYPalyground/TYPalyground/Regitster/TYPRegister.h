@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define TYPVireControllerRegister(VIEWCONTROLLER) \
+#define TYPViewControllerRegister(VIEWCONTROLLER) \
     [[TYPRegister shared] registerCommand:VIEWCONTROLLER];
 
 NS_ASSUME_NONNULL_BEGIN
