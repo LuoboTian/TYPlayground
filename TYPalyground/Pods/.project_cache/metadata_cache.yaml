@@ -1,3 +1,11 @@
+LookinServer:
+  LABEL: LookinServer
+  PROJECT_PATH: LookinServer.xcodeproj
+  UUID: 648108237631EEA52299D347ABDCA30C
+Masonry:
+  LABEL: Masonry
+  PROJECT_PATH: Masonry.xcodeproj
+  UUID: C0965FF775F51458AD4A8E41ABAB7D1E
 Pods-TYPalyground:
   LABEL: Pods-TYPalyground
   PROJECT_PATH: Pods.xcodeproj

@@ -2,10 +2,31 @@ BUILD_CONFIGURATIONS:
   Debug: :debug
   Release: :release
 CACHE_KEYS:
+  LookinServer:
+    BUILD_SETTINGS_CHECKSUM:
+      LookinServer:
+        :debug: 4c7189cef2a436f9ffe30a83994632ac
+        :release: 4c7189cef2a436f9ffe30a83994632ac
+    CHECKSUM: c3dcb3d46c6195261d41b679fcf218aa8bb03f76
+    PROJECT_NAME: LookinServer
+    SPECS:
+      - LookinServer (1.0.0)
+  Masonry:
+    BUILD_SETTINGS_CHECKSUM:
+      Masonry:
+        :debug: 81c99d0c97c50615f884ca16fc1ca365
+        :release: 81c99d0c97c50615f884ca16fc1ca365
+    CHECKSUM: d704e5a819cf80b15c88b52ddf99bc7fc7de2f6e
+    PROJECT_NAME: Masonry
+    SPECS:
+      - Masonry (1.1.0)
   Pods-TYPalyground:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: a44bcbdc62ecdcff23c3a1fbbd61884f
-      Release: a44bcbdc62ecdcff23c3a1fbbd61884f
+      Debug: 671b6ef9885e38ec3f9892a81e8d6b61
+      Release: 671b6ef9885e38ec3f9892a81e8d6b61
 OBJECT_VERSION: 56
 PLUGINS:
-  {}
+  cocoapods-binary:
+    {}
+  cocoapods-hmap-prebuilt:
+    {}

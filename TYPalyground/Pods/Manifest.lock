@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 7a14ca0c97fd1e371012c4c38be01c9e6cefb322
+PODS:
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
 
-COCOAPODS: 1.10.2
+DEPENDENCIES:
+  - LookinServer (= 1.0.0)
+  - Masonry (= 1.1.0)
+
+SPEC REPOS:
+  "ssh://git@git.sankuai.com/ios/binaryspecs.git":
+    - LookinServer
+    - Masonry
+
+SPEC CHECKSUMS:
+  LookinServer: c3dcb3d46c6195261d41b679fcf218aa8bb03f76
+  Masonry: d704e5a819cf80b15c88b52ddf99bc7fc7de2f6e
+
+PODFILE CHECKSUM: 4ffbcb43fdfb754cdcecc55be811aaee1cdd1964
+
+COCOAPODS: 1.10.1

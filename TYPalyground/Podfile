@@ -1,10 +1,15 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+platform :ios, '12.0'
+
 target 'TYPalyground' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  # 查看视图的组件
+  binary_pod 'LookinServer', '1.0.0', :source => 'https://github.com/QMUI/LookinServer.git'
+  binary_pod 'Masonry', '1.1.0', :source => 'https://github.com/SnapKit/Masonry.git'
+  
   # Pods for TYPalyground
 
 end

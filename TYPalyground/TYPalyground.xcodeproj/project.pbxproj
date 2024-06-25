@@ -14,11 +14,13 @@
 		C87BD34A2C1D406D005513A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87BD3492C1D406D005513A6 /* Assets.xcassets */; };
 		C87BD34D2C1D406D005513A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C87BD34C2C1D406D005513A6 /* Base */; };
 		C87BD3502C1D406D005513A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD34F2C1D406D005513A6 /* main.m */; };
-		C87BD35F2C1D5E81005513A6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD35D2C1D5E81005513A6 /* TestViewController.m */; };
-		C87BD36C2C1D72A7005513A6 /* PanGestureFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */; };
-		C87BD36D2C1D72A7005513A6 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD36A2C1D72A7005513A6 /* RedView.m */; };
-		C87BD3742C1D73F9005513A6 /* TYPRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD3722C1D73F9005513A6 /* TYPRegister.m */; };
-		C8B883782C21CAF9003C38EC /* TYLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */; };
+		C8A5FD552C293E5B00A93053 /* TYLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */; };
+		C8A5FD562C293E5B00A93053 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD452C293E5B00A93053 /* GestureView.m */; };
+		C8A5FD572C293E5B00A93053 /* NineGridGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD472C293E5B00A93053 /* NineGridGestureViewController.m */; };
+		C8A5FD582C293E5B00A93053 /* PanGestureFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4A2C293E5B00A93053 /* PanGestureFollowingViewController.m */; };
+		C8A5FD592C293E5B00A93053 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4C2C293E5B00A93053 /* RedView.m */; };
+		C8A5FD5A2C293E5B00A93053 /* TYPRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */; };
+		C8A5FD5B2C293E5B00A93053 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD522C293E5B00A93053 /* TestViewController.m */; };
 		D62545CC7541C8AFFEC3914C /* Pods_TYPalyground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7975D1713977B4AAF55FD1B4 /* Pods_TYPalyground.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,16 +40,20 @@
 		C87BD34C2C1D406D005513A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87BD34E2C1D406D005513A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87BD34F2C1D406D005513A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C87BD35C2C1D5E81005513A6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		C87BD35D2C1D5E81005513A6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		C87BD3672C1D72A7005513A6 /* PanGestureFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureFollowingViewController.h; sourceTree = "<group>"; };
-		C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureFollowingViewController.m; sourceTree = "<group>"; };
-		C87BD3692C1D72A7005513A6 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
-		C87BD36A2C1D72A7005513A6 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
-		C87BD3712C1D73F9005513A6 /* TYPRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPRegister.h; sourceTree = "<group>"; };
-		C87BD3722C1D73F9005513A6 /* TYPRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPRegister.m; sourceTree = "<group>"; };
-		C8B883762C21CAF9003C38EC /* TYLifecycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLifecycleViewController.h; sourceTree = "<group>"; };
-		C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLifecycleViewController.m; sourceTree = "<group>"; };
+		C8A5FD412C293E5B00A93053 /* TYLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLifecycleViewController.h; sourceTree = "<group>"; };
+		C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLifecycleViewController.m; sourceTree = "<group>"; };
+		C8A5FD442C293E5B00A93053 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		C8A5FD452C293E5B00A93053 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		C8A5FD462C293E5B00A93053 /* NineGridGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineGridGestureViewController.h; sourceTree = "<group>"; };
+		C8A5FD472C293E5B00A93053 /* NineGridGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineGridGestureViewController.m; sourceTree = "<group>"; };
+		C8A5FD492C293E5B00A93053 /* PanGestureFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureFollowingViewController.h; sourceTree = "<group>"; };
+		C8A5FD4A2C293E5B00A93053 /* PanGestureFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureFollowingViewController.m; sourceTree = "<group>"; };
+		C8A5FD4B2C293E5B00A93053 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		C8A5FD4C2C293E5B00A93053 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		C8A5FD4E2C293E5B00A93053 /* TYPRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPRegister.h; sourceTree = "<group>"; };
+		C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPRegister.m; sourceTree = "<group>"; };
+		C8A5FD512C293E5B00A93053 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C8A5FD522C293E5B00A93053 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +80,7 @@
 		C87BD3312C1D406A005513A6 = {
 			isa = PBXGroup;
 			children = (
-				C8B883742C21CAAC003C38EC /* Lifecycle */,
-				C87BD3732C1D73F9005513A6 /* Regitster */,
-				C87BD36B2C1D72A7005513A6 /* PanGestureFollowing */,
-				C87BD35E2C1D5E81005513A6 /* Demo */,
+				C8A5FD542C293E5B00A93053 /* Demo */,
 				C87BD33C2C1D406A005513A6 /* TYPalyground */,
 				C87BD33B2C1D406A005513A6 /* Products */,
 				6D3E8D8A4A1F1D7129C1B76A /* Pods */,
@@ -111,46 +114,66 @@
 			path = TYPalyground;
 			sourceTree = "<group>";
 		};
-		C87BD35E2C1D5E81005513A6 /* Demo */ = {
+		C8A5FD432C293E5B00A93053 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
-				C87BD35C2C1D5E81005513A6 /* TestViewController.h */,
-				C87BD35D2C1D5E81005513A6 /* TestViewController.m */,
+				C8A5FD412C293E5B00A93053 /* TYLifecycleViewController.h */,
+				C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		C8A5FD482C293E5B00A93053 /* NineGridGesture */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5FD442C293E5B00A93053 /* GestureView.h */,
+				C8A5FD452C293E5B00A93053 /* GestureView.m */,
+				C8A5FD462C293E5B00A93053 /* NineGridGestureViewController.h */,
+				C8A5FD472C293E5B00A93053 /* NineGridGestureViewController.m */,
+			);
+			path = NineGridGesture;
+			sourceTree = "<group>";
+		};
+		C8A5FD4D2C293E5B00A93053 /* PanGestureFollowing */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5FD492C293E5B00A93053 /* PanGestureFollowingViewController.h */,
+				C8A5FD4A2C293E5B00A93053 /* PanGestureFollowingViewController.m */,
+				C8A5FD4B2C293E5B00A93053 /* RedView.h */,
+				C8A5FD4C2C293E5B00A93053 /* RedView.m */,
+			);
+			path = PanGestureFollowing;
+			sourceTree = "<group>";
+		};
+		C8A5FD502C293E5B00A93053 /* Regitster */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5FD4E2C293E5B00A93053 /* TYPRegister.h */,
+				C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */,
+			);
+			path = Regitster;
+			sourceTree = "<group>";
+		};
+		C8A5FD532C293E5B00A93053 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5FD512C293E5B00A93053 /* TestViewController.h */,
+				C8A5FD522C293E5B00A93053 /* TestViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		C8A5FD542C293E5B00A93053 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5FD432C293E5B00A93053 /* Lifecycle */,
+				C8A5FD482C293E5B00A93053 /* NineGridGesture */,
+				C8A5FD4D2C293E5B00A93053 /* PanGestureFollowing */,
+				C8A5FD502C293E5B00A93053 /* Regitster */,
+				C8A5FD532C293E5B00A93053 /* Test */,
 			);
 			name = Demo;
 			path = TYPalyground/Demo;
-			sourceTree = "<group>";
-		};
-		C87BD36B2C1D72A7005513A6 /* PanGestureFollowing */ = {
-			isa = PBXGroup;
-			children = (
-				C87BD3672C1D72A7005513A6 /* PanGestureFollowingViewController.h */,
-				C87BD3682C1D72A7005513A6 /* PanGestureFollowingViewController.m */,
-				C87BD3692C1D72A7005513A6 /* RedView.h */,
-				C87BD36A2C1D72A7005513A6 /* RedView.m */,
-			);
-			name = PanGestureFollowing;
-			path = TYPalyground/PanGestureFollowing;
-			sourceTree = "<group>";
-		};
-		C87BD3732C1D73F9005513A6 /* Regitster */ = {
-			isa = PBXGroup;
-			children = (
-				C87BD3712C1D73F9005513A6 /* TYPRegister.h */,
-				C87BD3722C1D73F9005513A6 /* TYPRegister.m */,
-			);
-			name = Regitster;
-			path = TYPalyground/Regitster;
-			sourceTree = "<group>";
-		};
-		C8B883742C21CAAC003C38EC /* Lifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				C8B883762C21CAF9003C38EC /* TYLifecycleViewController.h */,
-				C8B883772C21CAF9003C38EC /* TYLifecycleViewController.m */,
-			);
-			name = Lifecycle;
-			path = TYPalyground/Lifecycle;
 			sourceTree = "<group>";
 		};
 		FE53DF851595FD546276C3D5 /* Frameworks */ = {
@@ -172,6 +195,7 @@
 				C87BD3362C1D406A005513A6 /* Sources */,
 				C87BD3372C1D406A005513A6 /* Frameworks */,
 				C87BD3382C1D406A005513A6 /* Resources */,
+				D7E08748750D666DE1380FCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +274,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D7E08748750D666DE1380FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYPalyground/Pods-TYPalyground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYPalyground/Pods-TYPalyground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYPalyground/Pods-TYPalyground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,15 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B883782C21CAF9003C38EC /* TYLifecycleViewController.m in Sources */,
-				C87BD35F2C1D5E81005513A6 /* TestViewController.m in Sources */,
+				C8A5FD5A2C293E5B00A93053 /* TYPRegister.m in Sources */,
+				C8A5FD562C293E5B00A93053 /* GestureView.m in Sources */,
+				C8A5FD552C293E5B00A93053 /* TYLifecycleViewController.m in Sources */,
 				C87BD3452C1D406A005513A6 /* ViewController.m in Sources */,
-				C87BD3742C1D73F9005513A6 /* TYPRegister.m in Sources */,
-				C87BD36C2C1D72A7005513A6 /* PanGestureFollowingViewController.m in Sources */,
 				C87BD33F2C1D406A005513A6 /* AppDelegate.m in Sources */,
-				C87BD36D2C1D72A7005513A6 /* RedView.m in Sources */,
+				C8A5FD582C293E5B00A93053 /* PanGestureFollowingViewController.m in Sources */,
 				C87BD3502C1D406D005513A6 /* main.m in Sources */,
+				C8A5FD5B2C293E5B00A93053 /* TestViewController.m in Sources */,
+				C8A5FD572C293E5B00A93053 /* NineGridGestureViewController.m in Sources */,
 				C87BD3422C1D406A005513A6 /* SceneDelegate.m in Sources */,
+				C8A5FD592C293E5B00A93053 /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AK3G3A6RA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TYPalyground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -433,6 +477,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+				USE_HEADERMAP = YES;
 			};
 			name = Debug;
 		};
@@ -445,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AK3G3A6RA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TYPalyground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -462,6 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
 			};
 			name = Release;
 		};

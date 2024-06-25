@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "TestViewController.h"
 #import "TYPRegister.h"
 
 @interface ViewController ()
