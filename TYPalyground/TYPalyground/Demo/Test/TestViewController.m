@@ -6,7 +6,7 @@
 //
 
 #import "TestViewController.h"
-#import "TYPRegister.h"
+#import "TYPRegisterManager.h"
 
 @interface TestViewController () <TYPViewControllerInterface>
 

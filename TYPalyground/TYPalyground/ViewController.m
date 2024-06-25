@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "TYPRegister.h"
+#import "TYPRegisterManager.h"
 
 @interface ViewController ()
 
@@ -20,7 +20,7 @@
 {
     self = [super init];
     if (self) {
-        _featureList =  [[TYPRegister shared] getViewControllerKeyList];
+        _featureList =  [[TYPRegisterManager shared] getViewControllerKeyList];
     }
     return self;
 }
@@ -43,7 +43,9 @@
     if (nil == cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([ViewController class])];
     }
-    cell.textLabel.text = [_featureList objectAtIndex:indexPath.row];
+    NSString *key = [_featureList objectAtIndex:indexPath.row];
+    TYPRegisterCell *registerCell = [[TYPRegisterManager shared] getViewControllerClassWithKey:key];
+    cell.textLabel.text = registerCell.title;
     return cell;
 }
 
@@ -66,7 +68,8 @@
 // 点击Table，执行的操作
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *key = [_featureList objectAtIndex:indexPath.row];
-    Class class = [[TYPRegister shared] getViewControllerClassWithKey:key];
+    TYPRegisterCell *registerCell = [[TYPRegisterManager shared] getViewControllerClassWithKey:key];
+    Class class = registerCell.class;
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
     

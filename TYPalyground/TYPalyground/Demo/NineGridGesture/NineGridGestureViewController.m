@@ -7,7 +7,7 @@
 
 #import "NineGridGestureViewController.h"
 #import "GestureView.h"
-#import "TYPRegister.h"
+#import "TYPRegisterManager.h"
 
 @interface NineGridGestureViewController () <TYPViewControllerInterface>
 

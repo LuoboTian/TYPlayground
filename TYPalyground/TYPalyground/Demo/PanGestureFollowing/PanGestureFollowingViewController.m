@@ -7,7 +7,7 @@
 
 #import "PanGestureFollowingViewController.h"
 #import "RedView.h"
-#import "TYPRegister.h"
+#import "TYPRegisterManager.h"
 
 
 @interface PanGestureFollowingViewController () <TYPViewControllerInterface>
@@ -36,5 +36,9 @@
     [self.view addSubview:view];
 }
 
+#pragma mark - TYPViewControllerInterface
++ (NSString *)description {
+    return @"view 手势跟随";
+}
 
 @end

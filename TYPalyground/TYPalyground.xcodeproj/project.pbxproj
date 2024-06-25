@@ -14,12 +14,13 @@
 		C87BD34A2C1D406D005513A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87BD3492C1D406D005513A6 /* Assets.xcassets */; };
 		C87BD34D2C1D406D005513A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C87BD34C2C1D406D005513A6 /* Base */; };
 		C87BD3502C1D406D005513A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD34F2C1D406D005513A6 /* main.m */; };
+		C8A500762C2AFB4F00A93053 /* TYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A500742C2AFB4F00A93053 /* TYHitTestViewController.m */; };
 		C8A5FD552C293E5B00A93053 /* TYLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */; };
 		C8A5FD562C293E5B00A93053 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD452C293E5B00A93053 /* GestureView.m */; };
 		C8A5FD572C293E5B00A93053 /* NineGridGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD472C293E5B00A93053 /* NineGridGestureViewController.m */; };
 		C8A5FD582C293E5B00A93053 /* PanGestureFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4A2C293E5B00A93053 /* PanGestureFollowingViewController.m */; };
 		C8A5FD592C293E5B00A93053 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4C2C293E5B00A93053 /* RedView.m */; };
-		C8A5FD5A2C293E5B00A93053 /* TYPRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */; };
+		C8A5FD5A2C293E5B00A93053 /* TYPRegisterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD4F2C293E5B00A93053 /* TYPRegisterManager.m */; };
 		C8A5FD5B2C293E5B00A93053 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD522C293E5B00A93053 /* TestViewController.m */; };
 		D62545CC7541C8AFFEC3914C /* Pods_TYPalyground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7975D1713977B4AAF55FD1B4 /* Pods_TYPalyground.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 		C87BD34C2C1D406D005513A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87BD34E2C1D406D005513A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87BD34F2C1D406D005513A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8A500732C2AFB4F00A93053 /* TYHitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHitTestViewController.h; sourceTree = "<group>"; };
+		C8A500742C2AFB4F00A93053 /* TYHitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHitTestViewController.m; sourceTree = "<group>"; };
 		C8A5FD412C293E5B00A93053 /* TYLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLifecycleViewController.h; sourceTree = "<group>"; };
 		C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLifecycleViewController.m; sourceTree = "<group>"; };
 		C8A5FD442C293E5B00A93053 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
@@ -50,8 +53,8 @@
 		C8A5FD4A2C293E5B00A93053 /* PanGestureFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureFollowingViewController.m; sourceTree = "<group>"; };
 		C8A5FD4B2C293E5B00A93053 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
 		C8A5FD4C2C293E5B00A93053 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
-		C8A5FD4E2C293E5B00A93053 /* TYPRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPRegister.h; sourceTree = "<group>"; };
-		C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPRegister.m; sourceTree = "<group>"; };
+		C8A5FD4E2C293E5B00A93053 /* TYPRegisterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPRegisterManager.h; sourceTree = "<group>"; };
+		C8A5FD4F2C293E5B00A93053 /* TYPRegisterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPRegisterManager.m; sourceTree = "<group>"; };
 		C8A5FD512C293E5B00A93053 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		C8A5FD522C293E5B00A93053 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +117,15 @@
 			path = TYPalyground;
 			sourceTree = "<group>";
 		};
+		C8A500752C2AFB4F00A93053 /* hitTest */ = {
+			isa = PBXGroup;
+			children = (
+				C8A500732C2AFB4F00A93053 /* TYHitTestViewController.h */,
+				C8A500742C2AFB4F00A93053 /* TYHitTestViewController.m */,
+			);
+			path = hitTest;
+			sourceTree = "<group>";
+		};
 		C8A5FD432C293E5B00A93053 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +160,8 @@
 		C8A5FD502C293E5B00A93053 /* Regitster */ = {
 			isa = PBXGroup;
 			children = (
-				C8A5FD4E2C293E5B00A93053 /* TYPRegister.h */,
-				C8A5FD4F2C293E5B00A93053 /* TYPRegister.m */,
+				C8A5FD4E2C293E5B00A93053 /* TYPRegisterManager.h */,
+				C8A5FD4F2C293E5B00A93053 /* TYPRegisterManager.m */,
 			);
 			path = Regitster;
 			sourceTree = "<group>";
@@ -166,6 +178,7 @@
 		C8A5FD542C293E5B00A93053 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C8A500752C2AFB4F00A93053 /* hitTest */,
 				C8A5FD432C293E5B00A93053 /* Lifecycle */,
 				C8A5FD482C293E5B00A93053 /* NineGridGesture */,
 				C8A5FD4D2C293E5B00A93053 /* PanGestureFollowing */,
@@ -298,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A5FD5A2C293E5B00A93053 /* TYPRegister.m in Sources */,
+				C8A5FD5A2C293E5B00A93053 /* TYPRegisterManager.m in Sources */,
 				C8A5FD562C293E5B00A93053 /* GestureView.m in Sources */,
 				C8A5FD552C293E5B00A93053 /* TYLifecycleViewController.m in Sources */,
 				C87BD3452C1D406A005513A6 /* ViewController.m in Sources */,
@@ -307,6 +320,7 @@
 				C87BD3502C1D406D005513A6 /* main.m in Sources */,
 				C8A5FD5B2C293E5B00A93053 /* TestViewController.m in Sources */,
 				C8A5FD572C293E5B00A93053 /* NineGridGestureViewController.m in Sources */,
+				C8A500762C2AFB4F00A93053 /* TYHitTestViewController.m in Sources */,
 				C87BD3422C1D406A005513A6 /* SceneDelegate.m in Sources */,
 				C8A5FD592C293E5B00A93053 /* RedView.m in Sources */,
 			);

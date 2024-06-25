@@ -8,19 +8,30 @@
 #import <Foundation/Foundation.h>
 
 #define TYPViewControllerRegister(VIEWCONTROLLER) \
-    [[TYPRegister shared] registerCommand:VIEWCONTROLLER];
+    [[TYPRegisterManager shared] registerCommand:VIEWCONTROLLER];
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol TYPViewControllerInterface <NSObject>
 
 @optional
-- (void)title;
+// 在列表里展示中文名称，默认使用类名显示
++ (NSString *)description;
 
 @end
 
 
-@interface TYPRegister : NSObject
+// 注册元类
+@interface TYPRegisterCell : NSObject
+
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, strong) Class<TYPViewControllerInterface> class;
+
+@end
+
+
+// 注册管理类
+@interface TYPRegisterManager : NSObject
 
 + (instancetype)shared;
 
@@ -35,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 根据key，获取其注册的容器类
 /// - Parameter key: key
-- (Class<TYPViewControllerInterface>)getViewControllerClassWithKey:(NSString *)key;
+- (TYPRegisterCell *)getViewControllerClassWithKey:(NSString *)key;
 @end
 
 NS_ASSUME_NONNULL_END

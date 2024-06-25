@@ -7,7 +7,7 @@
 //  当前页面展示容器的生命周期
 
 #import "TYLifecycleViewController.h"
-#import "TYPRegister.h"
+#import "TYPRegisterManager.h"
 
 #define TYLifecycleLog() \
     NSLog(@"%s, %s", __FILE_NAME__, __FUNCTION__);
