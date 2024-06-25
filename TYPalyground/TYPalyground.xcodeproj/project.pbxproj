@@ -15,6 +15,7 @@
 		C87BD34D2C1D406D005513A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C87BD34C2C1D406D005513A6 /* Base */; };
 		C87BD3502C1D406D005513A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87BD34F2C1D406D005513A6 /* main.m */; };
 		C8A500762C2AFB4F00A93053 /* TYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A500742C2AFB4F00A93053 /* TYHitTestViewController.m */; };
+		C8A500842C2B06E800A93053 /* TYPImageEraseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A500822C2B06E800A93053 /* TYPImageEraseViewController.m */; };
 		C8A5FD552C293E5B00A93053 /* TYLifecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */; };
 		C8A5FD562C293E5B00A93053 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD452C293E5B00A93053 /* GestureView.m */; };
 		C8A5FD572C293E5B00A93053 /* NineGridGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A5FD472C293E5B00A93053 /* NineGridGestureViewController.m */; };
@@ -43,6 +44,8 @@
 		C87BD34F2C1D406D005513A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8A500732C2AFB4F00A93053 /* TYHitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHitTestViewController.h; sourceTree = "<group>"; };
 		C8A500742C2AFB4F00A93053 /* TYHitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHitTestViewController.m; sourceTree = "<group>"; };
+		C8A500812C2B06E800A93053 /* TYPImageEraseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPImageEraseViewController.h; sourceTree = "<group>"; };
+		C8A500822C2B06E800A93053 /* TYPImageEraseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPImageEraseViewController.m; sourceTree = "<group>"; };
 		C8A5FD412C293E5B00A93053 /* TYLifecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLifecycleViewController.h; sourceTree = "<group>"; };
 		C8A5FD422C293E5B00A93053 /* TYLifecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLifecycleViewController.m; sourceTree = "<group>"; };
 		C8A5FD442C293E5B00A93053 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
@@ -126,6 +129,15 @@
 			path = hitTest;
 			sourceTree = "<group>";
 		};
+		C8A500832C2B06E800A93053 /* ImageEarse */ = {
+			isa = PBXGroup;
+			children = (
+				C8A500812C2B06E800A93053 /* TYPImageEraseViewController.h */,
+				C8A500822C2B06E800A93053 /* TYPImageEraseViewController.m */,
+			);
+			path = ImageEarse;
+			sourceTree = "<group>";
+		};
 		C8A5FD432C293E5B00A93053 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +190,7 @@
 		C8A5FD542C293E5B00A93053 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C8A500832C2B06E800A93053 /* ImageEarse */,
 				C8A500752C2AFB4F00A93053 /* hitTest */,
 				C8A5FD432C293E5B00A93053 /* Lifecycle */,
 				C8A5FD482C293E5B00A93053 /* NineGridGesture */,
@@ -323,6 +336,7 @@
 				C8A500762C2AFB4F00A93053 /* TYHitTestViewController.m in Sources */,
 				C87BD3422C1D406A005513A6 /* SceneDelegate.m in Sources */,
 				C8A5FD592C293E5B00A93053 /* RedView.m in Sources */,
+				C8A500842C2B06E800A93053 /* TYPImageEraseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
